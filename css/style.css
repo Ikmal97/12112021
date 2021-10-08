@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700);
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 html {
   overflow-x: hidden;
 }
@@ -22,6 +23,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-family: "Ephesis", "recursive";
 }
 
 h2, .h2 {
@@ -509,10 +511,10 @@ ul.dropdown-menu li {
 }
 
 .slider {
-  background: url("../images/bg/home-1.jpg") no-repeat;
+  background: url("../images/bg/compress-banner-sambal.jpg") no-repeat;
   background-size: cover;
-  background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  background-position: 40% 20%;
+  padding: 100px 0 100px 0;
   position: relative;
 }
 
@@ -1416,5 +1418,6 @@ h3.quote::before {
     text-align: center;
   }
 }
+
 
 /*# sourceMappingURL=maps/style.css.map */
