@@ -1,0 +1,13 @@
+.slider .block span {
+  letter-spacing: 1px;
+  color: antiquewhite;
+}
+
+.counter-item .counter-stat {
+  font-size: 2.2rem;
+  font-family: 'Hind';
+}
+
+.counter-item.text-center{
+  background: rgba(36, 36, 36, 0.34);
+}
