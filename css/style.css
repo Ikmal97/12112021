@@ -512,9 +512,10 @@ ul.dropdown-menu li {
 
 .slider {
   background: url("../images/bg/compress-banner-sambal.jpg") no-repeat;
+  height: 90vh;
   background-size: cover;
   background-position: 40% 20%;
-  padding: 100px 0 100px 0;
+  padding: 150px 0 100px 0;
   position: relative;
 }
 
@@ -1286,7 +1287,7 @@ h3.quote::before {
     line-height: 40px;
   }
   .slider {
-    padding: 126px 0 151px 0;
+    padding: 200px 0 151px 0;
   }
   .content-title {
     font-size: 28px;
@@ -1345,7 +1346,7 @@ h3.quote::before {
     line-height: 50px;
   }
   .slider {
-    padding: 126px 0 151px 0;
+    padding: 200px 0 151px 0;
   }
   .content-title {
     font-size: 28px;

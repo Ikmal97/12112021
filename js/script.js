@@ -98,6 +98,14 @@
 	      time: 1000
 	  });
 
-	
+	 
 
-})(jQuery);
+})
+// to change from one section to another
+$('#next1').click(function(){
+    $('#poem').fadeOut(300, function () {
+         $('#countdown').fadeIn(100);
+    });
+});
+//
+(jQuery);

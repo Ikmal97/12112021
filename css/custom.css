@@ -11,3 +11,30 @@
 .counter-item.text-center{
   background: rgba(36, 36, 36, 0.34);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.poem .card{
+  border-width: 1rem;
+  border-color: whitesmoke;
+  padding: 1rem;
+  background: black;
+}
+
+.poem .card h1{
+  color: white;
+}
+
+.poem a{
+  font-family: 'Ephesis';
+  color: white;
+  font-size: 2rem;
+}
+
+.poem a:hover{
+ 
+  color: grey;
+  font-size: 2rem;
+}
