@@ -26,9 +26,10 @@
 		slidesToScroll: 2,
 		infinite: true,
 		dots: true,
-		arrows: false,
+		arrows: true,
 		autoplay: true,
 		autoplaySpeed: 6000,
+		adaptiveheight:true,
 		responsive: [
 		    {
 		      breakpoint: 1024,
@@ -97,15 +98,23 @@
 	      delay: 10,
 	      time: 1000
 	  });
-
-	 
-
-})
 // to change from one section to another
 $('#next1').click(function(){
     $('#poem').fadeOut(300, function () {
-         $('#countdown').fadeIn(100);
+         $('#us').fadeIn(100);
+		 $('#pic').css('visibility','visible');
+		 
     });
 });
+$('#next2').click(function(){
+    $('#us').fadeOut(300, function () {
+         $('#countdown').fadeIn(100);
+		 $('#pic').css('display','none');
+    });
+});
+	 
+
+})
+
 //
 (jQuery);

@@ -38,3 +38,7 @@ html {
   color: grey;
   font-size: 2rem;
 }
+
+.testimonial-item{
+  padding: 1rem;
+}
