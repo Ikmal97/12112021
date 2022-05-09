@@ -56,7 +56,7 @@ html {
 .stars {
 	z-index: 0;
 /* 	background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center; */
-	background: #000 url('./images/stars/jpg') repeat top center;
+	background: #000 url('../images/stars/jpg') repeat top center;
   animation: move-star-back 1500s linear infinite;
 }
 
